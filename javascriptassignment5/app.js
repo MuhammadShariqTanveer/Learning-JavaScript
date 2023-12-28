@@ -1,10 +1,25 @@
                                  // CHAPTER 17-20
 
-// let twoDarr = [[1],[]];
+// Q1
+// var emptyTwoDArray = [];
 
-// console.log(twoDarr);
+// emptyTwoDArray[0] = [];
+// emptyTwoDArray[1] = [];
+// emptyTwoDArray[2] = [];
 
+// console.log(emptyTwoDArray); 
 
+// Q2
+// var matrix = [
+//     [0, 1, 2, 3],
+//     [1, 0, 1, 2],
+//     [2, 1, 0, 1]
+//   ];
+//   console.log(matrix[0][2]); 
+//   console.log(matrix[1][3]); 
+//   console.log(matrix[2][1]); 
+//   console.log(matrix);
+  
 // Q3
 // for(let i = 1; i<=10; i++){
 //     console.log(i);
@@ -339,6 +354,10 @@
 // }else{
 //     alert("Try again!");
 // }
+
+
+
+  
 
 
 
