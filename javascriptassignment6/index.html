@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a45a25882c.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="maincontainer">
+        <div class="calculator">
+            <h1>MY CALCULATOR</h1>
+            <input type="search" id="searchbar" maxlength="" readonly>
+            <table>
+                <tr>
+                    <td><button onclick="clearDisplay()">CE</button></td>
+                    <td><button onclick="clearDisplay()">C</button></td>
+                    <td><button onclick="removeFirstDigit()"><i class="fa-solid fa-delete-left"></i></button></td>
+                    <td><button onclick="appendToDisplay(`/`)"><i class="fa-solid fa-divide"></i></i></button></td>
+                </tr>
+                <tr>
+                    <td><button class="first" onclick="appendToDisplay('7')">7</button></td>
+                    <td><button onclick="appendToDisplay('8')">8</button></td>
+                    <td><button class="second" onclick="appendToDisplay('9')">9</button></td>
+                    <td><button id="cancel" onclick="appendToDisplay(`*`)"><i class="fa-solid fa-xmark"></i></button>
+                    </td>
+                </tr>
+                <tr>
+                    <td><button class="first" onclick="appendToDisplay('4')">4</button></td>
+                    <td><button onclick="appendToDisplay('5')">5</button></td>
+                    <td><button class="second" onclick="appendToDisplay('6')">6</button></td>
+                    <td><button onclick="appendToDisplay('-')"><i class="fa-solid fa-minus"></i></button></td>
+                </tr>
+                <tr>
+                    <td><button class="first" onclick="appendToDisplay('1')">1</button></td>
+                    <td><button onclick="appendToDisplay('2')">2</button></td>
+                    <td><button class="second" onclick="appendToDisplay('3')">3</button></td>
+                    <td><button onclick="appendToDisplay('+')"><i class="fa-solid fa-plus" class="plus"></i></button>
+                    </td>
+                </tr>
+                <tr>
+                    <td><button>+/-</button></td>
+                    <td><button onclick="appendToDisplay('0')">0</button></td>
+                    <td><button class="seconds">.</button></td>
+                    </label>
+                    <td><button class="equal" onclick="calculateResult()"><i class="fa-solid fa-equals"></i></button>
+                    </td>
+                </tr>
+            </table>
+            <script src="app.js"></script>
+        </div>
+    </div>
+</body>
+
+</html>

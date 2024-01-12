@@ -1,0 +1,68 @@
+#searchbar {
+    padding: 20px 0px;
+    width: 100%;
+    font-size: 18px;
+    border: none;
+    font-weight: bolder;
+    padding-left: 80%;
+
+}
+
+
+#searchbar:focus {
+    outline: none;
+}
+
+.maincontainer {
+    /* border: 1px solid ; */
+}
+
+.calculator {
+    width: 23%;
+    border: 2px solid;
+    margin: auto;
+    margin-top: 100px;
+    background-color: none;
+}
+
+button {
+    padding: 15px 27px;
+    margin-left: 3%;
+}
+
+button:hover {
+    background-color: red;
+}
+
+.first {
+    padding: 15px 32px;
+}
+
+#cancel {
+    padding: 15px 28px;
+}
+
+.second {
+    padding: 15px 30px;
+}
+
+.seconds {
+    padding: 15px 32px;
+}
+
+.equal {
+    background-color: midnightblue;
+    border-color: midnightblue;
+    border-radius: 4px;
+    color: white;
+}
+
+.equal:hover {
+    background-color: orange;
+}
+
+h1 {
+    text-align: center;
+    background-color: brown;
+    margin-top: 0.489px;
+}
