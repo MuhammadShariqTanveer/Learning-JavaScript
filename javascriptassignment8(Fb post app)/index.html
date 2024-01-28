@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/a45a25882c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+ 
+  <div class="main_container" id="main_container">
+
+   <div id="header">
+    <div class="header_txt">
+      <h3>Create post</h3>
+    </div>
+    <div class="header_pic">
+      <p class="icon"><i class="fa-solid fa-circle-xmark fa-2xl" style="color: #c5cedd;"></i></p>
+    </div>
+   </div>
+   <hr>
+
+
+   <div class="second">
+    <div class="iconimg">
+        <img src="images/IMG_7043.JPG" alt="" srcset="">
+    </div>
+    <div class="secondlist">
+      <ul>
+        <li>Shariq Raja</li>
+        <li> <select name="" id="" class="option"> 
+          <option value=""> Public</option>
+          <option value="">Friends</option> 
+          <option value="">Specific Friends</option>
+          <option value="">Only me</option>
+          <option value="">Custom</option>
+        </select></li>
+      </ul>
+    </div>
+   </div>
+  
+   <div >
+    <textarea id="textarea" name="" id="" rows="8" placeholder="What's on your mind, Shariq?"></textarea>
+   </div>
+
+
+<div id="table-content">
+  <table   cellpadding="7px" cellspacing="9">
+    <tr>
+      <td onclick="changeStyle(event)" id="me"><i class="fa-solid fa-bold" id="bold"></i></td>
+      <td onclick="changeStyle(event)"><i class="fa-solid fa-italic"></i></td>
+      <td onclick="changeStyle(event)"><i class="fa-solid fa-underline"></i></td>
+      <td onclick="changeStyle(event)"><i class="fa-solid fa-align-center"></i></td>
+      <td onclick="changeStyle(event)"><i class="fa-solid fa-align-right"></i></td>
+      <td oninput="emojiSet(event)">
+        <table>
+          <tr><td>
+            <select name="" id="">
+              <option value="😂">😂</option>
+              <option value="😂">😂</option>
+              <option value="😂">😂</option>
+            </select> 
+       
+          </td></tr>
+        </table>
+      
+      
+      
+      </td>
+       
+      
+      
+
+
+    
+
+    <tr>
+      <td onchange="changeColor(event)"><input  type="color" name="" id="color"></td>
+      <td onclick="addImage(event)"><i class="fa-solid fa-ban fa-xl"></i></td>
+      <td onclick="addImage(event)"><img src="images/fb1.avif" alt="" id="fb1"></td>
+      <td onclick="addImage(event)"><img src="images/background.png" alt="" id="fb"></td>
+      <td onclick="addImage(event)"><img src="images/hero-bg.png" alt="" id="fb"></td>
+      <td onchange="changeColorBg(event)"><input type="color" name="" id="bgcolor"></td>
+    </tr>
+
+    <tr>
+      <td>Color</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>bgColor</td>
+    </tr>
+  </table>
+</div>
+
+<div id="input">
+<input type="text" placeholder="Add to your post"  disabled>
+<ul>
+<li><i class="fa-regular fa-image" style="color: #5bb99c;"></i></li>
+<li><i class="fa-solid fa-user-tag"></i></li>
+<li><i class="fa-regular fa-face-smile" id="emoji-set" style="color: #000"></i></li>
+<li><i class="fa-solid fa-location-dot" style="color: #dc0909;"></i></li>
+<li><i class="fa-solid fa-video"></i></li>
+</ul>
+</div>
+
+<div id="post">
+ <button onclick="button()"  class="post">Post</button> 
+</div>
+
+<hr id="hr">
+
+<div id="liked-comment-share">
+  <div class="liked">
+    <i class="fa-regular fa-thumbs-up fa-xl" style="color: #b5b7ba;"></i> Like
+  </div>
+
+  <div class="comment">
+    <i class="fa-regular fa-comment fa-xl" style="color: #cccccc;"></i> Comment
+  </div>
+
+<div class="share">
+  <i class="fa-solid fa-share fa-xl" style="color: #bdc1c7;"></i>Share
+</div>
+
+</div>
+   <hr id="hr">
+  
+  </div>
+
+
+
+
+  <script src="app.js"></script>
+</body>
+</html>
+

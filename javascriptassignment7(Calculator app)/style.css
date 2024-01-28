@@ -66,3 +66,17 @@ h1 {
     background-color: brown;
     margin-top: 0.489px;
 }
+
+
+@media screen and (max-width:400px) {
+   .calculator{
+    width: 89%;
+   }
+}
+
+
+
+
+
+    
+
