@@ -1,4 +1,4 @@
-const apiKey = "3ff99f0452c54632898703d2099e0b0c";
+const apiKey = '3ff99f0452c54632898703d2099e0b0c';
 const newsContainer = document.getElementById('news-container');
 const newsButton = document.getElementById('newsButton');
 const buttonBorder = document.getElementById('button-border');
