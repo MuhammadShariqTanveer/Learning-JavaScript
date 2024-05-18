@@ -2,12 +2,17 @@ const apiKey = "3ff99f0452c54632898703d2099e0b0c";
 const newsContainer = document.getElementById('news-container');
 const newsButton = document.getElementById('newsButton');
 const buttonBorder = document.getElementById('button-border');
-const body= document.getElementById('body');
+const body = document.getElementById('body');
 
 async function fetchNews() {
+    console.log('Fetching news...');
     try {
         const response = await fetch(`https://newsapi.org/v2/top-headlines?country=us&apiKey=${apiKey}`);
+        if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+        }
         const data = await response.json();
+        console.log('News data:', data);
         displayNews(data.articles);
     } catch (error) {
         console.error('Error fetching news:', error);
@@ -26,10 +31,9 @@ function displayNews(articles) {
 }
 
 function clickButton() {
-    newsButton.style.display = 'none';  // Hide the button
-    buttonBorder.style.display= 'none';
-    body.style.backgroundColor = 'wheat'
-
+    console.log('Button clicked');
+    newsButton.style.display = 'none';
+    buttonBorder.style.display = 'none';
+    body.style.backgroundColor = 'wheat';
     fetchNews();
 }
-
