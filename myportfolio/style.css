@@ -1,15 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Playwrite+MX:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+VIC:wght@100..400&family=Playwrite+DE+VA:wght@100..400&family=Playwrite+IT+Trad:wght@100..400&family=Playwrite+MX:wght@100..400&family=Playwrite+TZ:wght@100..400&display=swap');
 
 
-.navname{
-    font-size: 24px;
-    /* font-family:"Playwrite TZ", cursive; */
-    /* font-family:"Playwrite IT Trad",cursive; */
-    font-family: "Playwrite DE VA", cursive;
+.navbar{
+    display: flex;
+}
+#navname{
+    font-size: 26px;
+    font-family: "Playwrite AU VIC", cursive;
     font-optical-sizing: auto;
-    font-weight: 100;
+    font-weight: 800;
     font-style: normal;
     color:rebeccapurple;
     margin: 0px 40px;
 
+}
+
+.navtext>ul{
+  list-style:none ;
+  display: block;
 }
