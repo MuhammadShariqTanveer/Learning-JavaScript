@@ -1,4 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+MX:wght@100..400&display=swap');
+
+
 .navname{
-    font-size: 23px;
-    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    /* font-family:"Playwrite TZ", cursive; */
+    /* font-family:"Playwrite IT Trad",cursive; */
+    font-family: "Playwrite DE VA", cursive;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    color:rebeccapurple;
+    margin: 0px 40px;
+
 }
