@@ -82,6 +82,7 @@ body {
 @media screen and (max-width: 600px) {
     body {
         background-image: url('New folder/img2.jpg');
+        font-size: 10px;
     }
 
    
